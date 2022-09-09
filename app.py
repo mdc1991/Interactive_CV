@@ -58,7 +58,7 @@ applayout = [
                                         [
                                             dbc.Col(
                                                 [
-                                                    html.Img(src=app.get_asset_url('headshot.JPG'), className='headshot-img')
+                                                    html.Img(src='/assets/headshot.jpg', className='headshot-img')
                                                 ], className='headshot-box'
                                             ),
                                             dbc.Col(
