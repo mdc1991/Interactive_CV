@@ -164,6 +164,11 @@ applayout = [
                 ]
             )
         ], className='contact-container'
+    ),
+    dbc.Container(
+        [
+            html.A(html.P("Source Code"), href="https://github.com/mdc1991/Interactive_CV")
+        ]
     )
 ]
 
