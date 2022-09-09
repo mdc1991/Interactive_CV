@@ -79,7 +79,7 @@ applayout = [
                                             html.H1("Coding Skills:"),
                                             icon_with_text('activity', "18 months applied analytics covering modelling, reporting and visualisation"),
                                             icon_with_text('student', "Always upskilling - recent courses include the basics of data engineering, PySpark, NLP, APIs and HTML / CSS"),
-                                            dbc.Button("See my coding skills", className='hero-button')
+                                            #dcc.Link(dbc.Button("See my coding skills", className='hero-button'), href='coding-skills-tab')
                                         ], className='bottom-left-box-text'
                                     )
                                 ], className='bottom-left-box'
@@ -96,7 +96,7 @@ applayout = [
                                             icon_with_text('chart-bar', "7 Years across pricing, reserving and capital modelling"),
                                             icon_with_text('presentation-chart', "More recently client a facing technical role at an Insutech"),
                                             icon_with_text('at', "Self taught coding and design work"),
-                                            dbc.Button("See my experience", className='hero-button')
+                                            #dbc.Button("See my experience", className='hero-button')
                                         ], className='top-right-box-text'
                                     )
                                 ], className='top-right-box'
@@ -110,7 +110,7 @@ applayout = [
                                             html.H2("A few highlights include: spending a month volunteering as an English teacher at a Peruvian school, "
                                                     + "summiting the Cotopaxi volcano (5897m) and completing several multi-day hikes (Machu Picchu – Peru, "
                                                     + "Torres Del Paine – Patagonia, the Ecuadorian Andes and 4 days in the Colombian Jungle)."),
-                                            dbc.Button("See my travels", className='hero-button')
+                                            #dbc.Button("See my travels", className='hero-button')
                                         ], className='bottom-right-box-text'
                                     )
                                 ], className='bottom-right-box'
