@@ -46,10 +46,10 @@ def experience_gantt_chart():
 
     actuarial_internship_text = h1 + 'Financial Services Authority (FSA) - Actuarial Intern</span><br>' + \
                                 h2 + 'September 2012 - January 2013</span><br>' + \
-                                h3 + 'I started my actuarial career doing a 4 month internship at the FSA in their<br>' + \
+                                h3 + 'I started my actuarial career doing a 4-month internship at the FSA in their<br>' + \
                                 'Life & Pensions department. It was a great introduction to what a career in<br>' + \
                                 'actuarial may involve. I gained exposure across the actuarial disciplines and<br>' + \
-                                ' I decided to apply for jobs in General Insurance.</span>'
+                                'I decided to apply for jobs in General Insurance.</span>'
 
     actuarial_analyst_text = h1 + 'Randall & Quilter - Actuarial Analyst</span><br>' + \
                              h2 + 'February 2013 - October 2017</span><br>' + \
@@ -61,8 +61,8 @@ def experience_gantt_chart():
 
     actuarial_exams_text = h1 + 'Actuarial Exams</span><br>' + \
                            h2 + 'February 2013 - June 2017</span><br>' + \
-                           h3 + 'It took me 3 1/2 years to pass the 15 exams required to qualify as an actuary. I gained <br>' + \
-                           'excellent planning and organisational skills demonstrated by maintaining a solid exam <br>' + \
+                           h3 + 'It took me 3 1/2 years to pass the 15 exams required to qualify as an actuary. I gained<br>' + \
+                           'excellent planning and organisational skills demonstrated by maintaining a solid exam<br>' + \
                            'success rate whilst balancing my work responsibilities. I also learned about motivation<br>' + \
                            'and perseverance through multiple failed exams throughout the road to qualification.<br>' + \
                            'Notable passes include: ST8 (79), SA3 (68), CA3 (67) and ST7 (65).</span>'
@@ -70,9 +70,9 @@ def experience_gantt_chart():
     career_break_text = h1 + 'Career Break - South America</span><br>' + \
                         h2 + 'November 2017 - August 2018</span><br>' + \
                         h3 + 'On completion of my Actuarial exams, I took 10 months to travel South America. During<br>' + \
-                        'this period, I visited: Argentina, Chile, Bolivia, Peru, Ecuador, Colombia and Brazil. A <br>' + \
-                        'few highlights include: spending a month volunteering as an English teacher at a Peruvian <br>' + \
-                        'school, summiting the Cotopaxi volcano (5897m), completing several multi-day hikes (Machu <br>' + \
+                        'this period, I visited: Argentina, Chile, Bolivia, Peru, Ecuador, Colombia and Brazil. A<br>' + \
+                        'few highlights include: spending a month volunteering as an English teacher at a Peruvian<br>' + \
+                        'school, summiting the Cotopaxi volcano (5897m), completing several multi-day hikes (Machu<br>' + \
                         'Picchu – Peru, Torres Del Paine – Patagonia, the Ecuadorian Andes and 4 days in the Colombian<br>' + \
                         'Jungle), Carnival in Rio de Janeiro - Brazil, spending time in the Peruvian Amazon, cycling<br>' + \
                         'Death Road and diving with hammerhead sharks in the Galapagos.</span>'
@@ -82,7 +82,7 @@ def experience_gantt_chart():
                            h3 + 'Full range of responsibilities focussed within the Capital Modelling workstream.<br>' + \
                            'These included: being the lead developer on both run-off and live Syndicate capital<br>' + \
                            'models. Analysing, interpreting, questioning, validating and explaining the outputs of<br>' + \
-                           'those models to various stakeholders across the business. I began to integreate python<br>' + \
+                           'those models to various stakeholders across the business. I began to integrate python<br>' + \
                            'into my day-to-day workflows to improve efficiency across the team. This included an<br>' + \
                            'automated peer review file for model inputs and outputs, quarterly extraction of asset<br>' + \
                            'data in the format required by each capital model which requires the manipulation of<br>' + \
@@ -251,13 +251,13 @@ def coding_skills_chart():
 
     data_eng_text = h1 + 'Data Engineering</span><br>' + \
                     h3 + 'I am taking a Udemy course on the basics of Data Engineering to better understand how to choose<br>' + \
-                    'the right data structures and write more efficient code. Whilst I do not plan to become a data engineer, <br>' + \
+                    'the right data structures and write more efficient code. Whilst I do not plan to become a data engineer,<br>' + \
                     'this course has given me a useful insight into thinking more about how my code is written and how the<br>' + \
                     'choices I make can impact the scalability of my solutions.</span>'
 
     nlp_text = h1 + 'Natural Language Processing (NLP)</span><br>' + \
-               h3 + 'I took a Udemy course on the basics of NLP and working with textual data. The course covered Python text <br>' + \
-               'basics, NLP basics, Part of Speech (POS) Tagging, Named Entity Recognition and Topic Modelling. I have <br>' + \
+               h3 + 'I took a Udemy course on the basics of NLP and working with textual data. The course covered Python text<br>' + \
+               'basics, NLP basics, Part of Speech (POS) Tagging, Named Entity Recognition and Topic Modelling. I have<br>' + \
                'taken the course to improve my ability to process textual data should it become part of my day-to-day workloads.</span>'
 
     scraping_text = h1 + 'Web Scaping</span><br>' + \

@@ -23,7 +23,8 @@ def icon_with_text(icon_name: str = None, text_description: str = None):
 
     container = dbc.Container(
         [
-            html.Img(src=app.get_asset_url(icon_name + '.svg'), className='feature-icon'),
+            html.Img(src=app.get_asset_url(icon_name + '.svg'),
+                     className='feature-icon'),
             html.H2(text_description)
         ], className='icon-with-text'
     )
@@ -33,15 +34,19 @@ def icon_with_text(icon_name: str = None, text_description: str = None):
 def add_tab(tab_name: str = None, tab_id: str = None):
     """
 
-    :param tab_name:
-    :param tab_id:
+    :param tab_name: The name of the tab shown in the app
+    :param tab_id: The id of the tab, used in the app callback to display the chart
     :return:
     """
 
     tab = dbc.Tab(label=tab_name,
                   tab_id=tab_id,
-                  label_style={"font-family": "GT Haptik", 'font-size' : 18, 'color' : '#19323C', 'border-radius' : '10px 10px 0 0'},
-                  active_label_style={"backgroundColor": "#F3F7F0", 'color' : '#19323C'})
+                  label_style={"font-family": "GT Haptik",
+                               'font-size' : 18,
+                               'color' : '#19323C',
+                               'border-radius' : '10px 10px 0 0'},
+                  active_label_style={"backgroundColor": "#F3F7F0",
+                                      'color' : '#19323C'})
 
     return tab
 
@@ -94,8 +99,8 @@ applayout = [
                                         [
                                             html.H1('Experience:'),
                                             icon_with_text('chart-bar', "7 Years across pricing, reserving and capital modelling"),
-                                            icon_with_text('presentation-chart', "More recently client a facing technical role at an Insutech"),
-                                            icon_with_text('at', "Self taught coding and design work"),
+                                            icon_with_text('presentation-chart', "More recently a client facing technical role at an Insutech"),
+                                            icon_with_text('at', "Self-taught coding and design work"),
                                             #dbc.Button("See my experience", className='hero-button')
                                         ], className='top-right-box-text'
                                     )
@@ -128,16 +133,20 @@ applayout = [
                     dbc.CardHeader(
                         dbc.Tabs(
                             [
-                                add_tab(tab_name='Experience', tab_id='experience-tab'),
-                                add_tab(tab_name='Coding Skills', tab_id='coding-skills-tab'),
-                                add_tab(tab_name='Career Break', tab_id='career-break-tab')
+                                add_tab(tab_name='Experience',
+                                        tab_id='experience-tab'),
+                                add_tab(tab_name='Coding Skills',
+                                        tab_id='coding-skills-tab'),
+                                add_tab(tab_name='Career Break',
+                                        tab_id='career-break-tab')
                             ], id='card-tabs',
                             active_tab='experience-tab',
                         ), className='card-header'
                     ),
                     dbc.CardBody(
                         [
-                            dcc.Graph(id='card-content', className='card-text')
+                            dcc.Graph(id='card-content',
+                                      className='card-text')
                         ]
                     )
                 ], className='charts-card'
