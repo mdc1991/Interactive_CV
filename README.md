@@ -1,5 +1,5 @@
 # Interactive Dashboard CV
-This project uses Plotly Dash to create an interactive CV
+This project uses Plotly Dash to create an interactive CV.
 Best viewed on a laptop. Phone screens are too small to show the plots.
 
 ## Requirements
